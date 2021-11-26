@@ -1,47 +1,47 @@
 @font-face {
-  font-family: 'Poppins-SemiBold';
+  font-family: "Poppins-SemiBold";
 
-  src: url('/assets/fonts/Poppins-SemiBold.woff') format('woff');
+  src: url("assets/fonts/Poppins-SemiBold.woff") format("woff");
 }
 @font-face {
-  font-family: 'Poppins-Bold';
+  font-family: "Poppins-Bold";
 
-  src: url('/assets/fonts/Poppins-Bold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Poppins-Italic';
-
-  src: url('/assets/fonts/Poppins-Italic.woff') format('woff');
+  src: url("assets/fonts/Poppins-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Poppins-Medium';
+  font-family: "Poppins-Italic";
 
-  src: url('/assets/fonts/Poppins-Medium.woff') format('woff');
+  src: url("assets/fonts/Poppins-Italic.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Poppins-Regular';
+  font-family: "Poppins-Medium";
 
-  src: url('/assets/fonts/Poppins-Regular.woff') format('woff');
+  src: url("assets/fonts/Poppins-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Poppins-Light';
+  font-family: "Poppins-Regular";
 
-  src: url('/assets/fonts/Poppins-Light.woff') format('woff');
+  src: url("assets/fonts/Poppins-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+
+  src: url("assets/fonts/Poppins-Light.woff") format("woff");
 }
 
 body {
-  font-family: 'Poppins-Regular' !important;
+  font-family: "Poppins-Regular" !important;
 }
 
 /* navbar */
 
 .navbar-brand {
   font-size: 30px;
-  font-family: 'Poppins-Bold';
+  font-family: "Poppins-Bold";
 }
 .logocolor1 {
   color: #fcae61;
@@ -52,7 +52,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-image: url('/assets/images/navicon.png') !important;
+  background-image: url(assets/images/navicon.png) !important;
   width: 1em !important;
   height: 1em !important;
 }
@@ -83,7 +83,7 @@ body {
   color: #fff;
   background: #2500f9 !important;
   font-size: 16px;
-  font-family: 'Poppins-Medium';
+  font-family: "Poppins-Medium";
   border-radius: 30px;
 }
 
@@ -92,7 +92,7 @@ body {
   color: #fff;
   background: #2500f9 !important;
   font-size: 16px;
-  font-family: 'Poppins-Medium';
+  font-family: "Poppins-Medium";
   border-radius: 30px;
 }
 
@@ -101,7 +101,7 @@ body {
 /* banner */
 
 .banner {
-  background-image: url('/assets/images/bannerback.png');
+  background-image: url(assets/images/bannerback.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -116,7 +116,7 @@ body {
 .bannerheading {
   font-size: 60px;
   color: #242f51;
-  font-family: 'Poppins-SemiBold';
+  font-family: "Poppins-SemiBold";
 }
 
 .bannerbtmtxt {
@@ -129,7 +129,7 @@ body {
   color: #2500f9;
 
   font-size: 16px;
-  font-family: 'Poppins-Medium';
+  font-family: "Poppins-Medium";
   text-decoration: none;
 }
 /* banner */
@@ -151,7 +151,7 @@ body {
 .featureheadtxt {
   font-size: 36px;
   color: #242f51;
-  font-family: 'Poppins-SemiBold';
+  font-family: "Poppins-SemiBold";
   line-height: 45px;
 }
 
@@ -160,7 +160,7 @@ body {
   font-size: 16px;
 }
 .featureiconheadtxt {
-  font-family: 'Poppins-SemiBold';
+  font-family: "Poppins-SemiBold";
   font-size: 20px;
 }
 .featurecolortxt1 {
@@ -183,7 +183,7 @@ body {
 
 /* jackpot */
 .headtxt {
-  font-family: 'Poppins-SemiBold';
+  font-family: "Poppins-SemiBold";
   font-size: 35px;
   color: #242f51;
 }
@@ -200,7 +200,7 @@ body {
 
 /* jackpotsubsec */
 .jackpotsubheadtxt {
-  font-family: 'Poppins-SemiBold';
+  font-family: "Poppins-SemiBold";
   font-size: 20px;
 }
 
@@ -215,7 +215,7 @@ body {
   margin-bottom: 55px;
 }
 .headtxt {
-  font-family: 'Poppins-SemiBold';
+  font-family: "Poppins-SemiBold";
   font-size: 36px;
   color: #242f51;
 }
@@ -230,7 +230,9 @@ body {
   margin-top: 100px;
   margin-bottom: 70px;
 }
-
+.col-md-4.appiconsec {
+  margin-bottom: 50px;
+}
 .appsubsection {
   margin-bottom: 70px;
 }
@@ -240,7 +242,7 @@ body {
 .footerlogo,
 .footerlogo:hover {
   font-size: 30px;
-  font-family: 'Poppins-Bold';
+  font-family: "Poppins-Bold";
   text-decoration: none;
 }
 
